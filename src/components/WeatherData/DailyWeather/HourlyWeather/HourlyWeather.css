@@ -1,0 +1,19 @@
+.hourlyWeatherWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    margin: 0 5%;
+    
+}
+
+.hourlyWeatherIcon {
+    width: 150%;
+}
+
+.hourlyWeatherWrap p {
+    color: #fff;
+    font-size: 0.6em;
+    font-weight: 400;
+}

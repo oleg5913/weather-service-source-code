@@ -1,0 +1,39 @@
+.dailyWeatherData {
+    width: 35%;
+}
+
+.dailyWeatherCurrentDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5em 0 0 0;
+}
+
+.dailyWeatherCurrentDate p, h4 {
+    color: #fff;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.hourlyWeatherPanel {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+
+
+.dailyWeatherPanelItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em 0;
+}
+
+.dailyWeatherPanelItem p {
+    color: #fff;
+    font-size: 0.6em;
+    width: 30%;
+}

@@ -1,0 +1,12 @@
+.weatherDataWrap {
+    width: 60%;
+    height: 70vh;
+    padding: 0 2%;
+    background: 
+        radial-gradient(ellipse farthest-corner at top left, rgba(255,255,255, 0.4), rgb(255, 255, 255, 0));
+    border: 3px solid #808890;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+}

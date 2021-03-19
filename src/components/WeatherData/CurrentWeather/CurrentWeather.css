@@ -1,0 +1,41 @@
+.currentWeatherDataWrap {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.currentWeatherIcon {
+    width: 30%;
+}
+
+.currentWeatherDataWrap p, h1 {
+    color: #fff;
+    margin: 0;
+    text-align: left;
+}
+
+.currentWeatherData h1 {
+    font-size: 5em;
+    font-weight: 500;
+}
+
+.tempSymbol {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 120%;
+    letter-spacing: -5%;
+}
+
+.currentGeo {
+    font-size: 1.1em;
+    margin-bottom: 1em !important;
+}
+
+.currentWeatherValue {
+    font-size: 0.6em;
+    font-weight: 300;
+    padding: 0.2em;
+}
